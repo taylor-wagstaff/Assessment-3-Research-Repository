@@ -6,6 +6,7 @@ import requests
 #Intermediate Python for Non-Programmers
 #Classes and weather
 
+#notes....
 #Weather api, Stand for Application Programming Interface
 ## json is a type of formatting for text, very machine freindly 
 ## JsonLint 
