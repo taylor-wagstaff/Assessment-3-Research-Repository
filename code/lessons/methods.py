@@ -56,3 +56,14 @@ from functools import reduce
 reduce_total = reduce(lambda total, student: student.score + total, students, 0)
 
 print("reduce total", reduce_total / len(students))
+
+#challenge
+
+numbers2 = [1,2,3,4,5]
+
+# if we begin with a number no need to initialise value, if you did, start with 1.
+number_total = reduce(lambda total, n: n * total, numbers2)
+
+print(number_total)
+
+##
