@@ -94,7 +94,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", "text/html")
         self.end_headers()
         self.wfile.write(bytes("<html><head><title>Economist Headline Poem Generator</title></head>", "utf-8"))
-        self.wfile.write(bytes('<meta http-equiv="refresh" content="1">', "utf-8"))
+        self.wfile.write(bytes('<meta http-equiv="refresh" content="5">', "utf-8"))
         self.wfile.write(bytes("<style>", "utf-8"))
         self.wfile.write(bytes("body { font-family:	Times New Roman, serif; font-size: 30px; background-color: red; color: white; }", "utf-8"))
         self.wfile.write(bytes("</style></head>", "utf-8"))
@@ -111,7 +111,7 @@ if __name__ == "__main__":
           poem_words = generate_poem_words()
           # webServer.serve_forever()
           webServer.handle_request()
-          time.sleep(10)
+          
          
     except KeyboardInterrupt:
         pass

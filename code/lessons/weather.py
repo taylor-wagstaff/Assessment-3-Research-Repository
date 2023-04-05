@@ -14,7 +14,7 @@ import requests
 
 
 
-
+# Simple weather API and how its workd, accidently sent up my key for this to github
 
 ## access api inside our class
 class City:
