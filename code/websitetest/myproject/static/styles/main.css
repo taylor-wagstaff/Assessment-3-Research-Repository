@@ -1,0 +1,107 @@
+/* General Website Style rules */
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+.header {
+  background-color: rgb(254, 221, 227); 
+  border-top-left-radius: 2rem;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.generator{
+  
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  
+}
+
+.form-container {
+  background-color: rgb(254, 221, 227); 
+}
+
+.results-item {
+  background-color: rgb(254, 221, 227); 
+
+}
+
+#run-button {
+  background-color: rgb(254, 221, 227); 
+  border-top-left-radius: 2rem;
+  border-style: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: blue;
+  max-width: 8rem;
+  min-height: 3rem;
+}
+
+#run-button:hover {
+  background-color: rgb(255, 223, 228);
+  border-style: none;
+  color: white;
+  cursor: help;
+
+}
+
+
+.link_list{
+  background-color: rgb(252, 252, 252);
+  border-top: 5px solid rgb(254, 221, 227); 
+  /* border-style: dotted; */
+  padding: 1rem, 1rem, 1rem, 0rem;
+  text-align: left;
+  overflow:hidden;
+}
+
+.results-container {
+  background-color: rgb(254, 221, 227); 
+
+}
+
+li {
+  list-style: none;
+}
+
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(98, 98, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
