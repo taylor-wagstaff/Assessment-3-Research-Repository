@@ -29,6 +29,4 @@ I dont really like scatch personally, I cant get past that its for kids, Althoug
 Git is a command line interface used to interact with github, its provides keywords in order to quickly upload, edit and compose software projects. 
 
 ### What is GitHub?
-
-
 Github is like facebook for developers, its where software projects can be stored and shared with others. Its like an online storage for code that others can access or not. 

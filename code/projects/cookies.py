@@ -5,7 +5,7 @@ response.cookies
 
 # i wanted to understand how cookies work and whats in them, but 
 # only the website internally can understand the string responses
-# and what they mean...
+# and what they mean...but still interesting. 
 
 for cookie in response.cookies:
 

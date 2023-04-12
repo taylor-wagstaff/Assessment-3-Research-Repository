@@ -4,8 +4,16 @@ body {
   background-color: rgb(252, 252, 252);
 }
 
+/*   --main-bg-color: rgb(254, 221, 227) rgb(236, 236, 249); */
+
+:root {
+  --main-bg-color: rgb(239, 239, 254);
+  --main-text-color: #fff;
+}
+
 .header {
-  background-color: rgb(254, 221, 227); 
+  /* background-color:gainsboro */
+  background-color: var(--main-bg-color); 
   border-top-left-radius: 2rem;
   padding: 15px 32px;
   text-decoration: none;
@@ -19,9 +27,9 @@ body {
   align-items: center;
 }
 
+/* to generate random links css */
 
 .generator{
-  
   text-align: center;
   align-items: center;
   margin-top: 1rem;
@@ -31,17 +39,10 @@ body {
   
 }
 
-.form-container {
-  background-color: rgb(254, 221, 227); 
-}
 
-.results-item {
-  background-color: rgb(254, 221, 227); 
-
-}
 
 #run-button {
-  background-color: rgb(254, 221, 227); 
+  background-color: var(--main-bg-color); 
   border-top-left-radius: 2rem;
   border-style: none;
   padding: 15px 32px;
@@ -55,7 +56,7 @@ body {
 }
 
 #run-button:hover {
-  background-color: rgb(255, 223, 228);
+  background-color: var(--main-bg-color);
   border-style: none;
   color: white;
   cursor: help;
@@ -65,15 +66,47 @@ body {
 
 .link_list{
   background-color: rgb(252, 252, 252);
-  border-top: 5px solid rgb(254, 221, 227); 
+  /* border-top: 5px solid rgb(254, 221, 227);  */
   /* border-style: dotted; */
-  padding: 1rem, 1rem, 1rem, 0rem;
+  /* padding: 1rem, 1rem, 1rem, 0rem; */
   text-align: left;
   overflow:hidden;
 }
 
+/* search bar */
+
+.input {
+  border: none;
+  min-width: 500px;
+
+}
+
+.clear-results {
+  color: blue;
+  border: none;
+  background-color: white;
+  
+}
+
+.clear-results:hover{
+  cursor:pointer;
+  background-color: var(--main-bg-color);
+
+}
+
+.form-container {
+  background-color: var(--main-bg-color);
+
+}
+
+#search{
+  background-color: white;
+  border: 1px solid blue;
+}
+
 .results-container {
-  background-color: rgb(254, 221, 227); 
+  background-color: var(--main-bg-color); 
+  overflow: hidden;
 
 }
 
@@ -89,7 +122,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(98, 98, 255);
+  color:springgreen;
   background-color: transparent;
   text-decoration: none;
 }

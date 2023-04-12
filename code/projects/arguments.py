@@ -1,5 +1,6 @@
 import sys
 
+# I wanted to learn how to manipulate the system. 
 #lesson in Intermediate Python for Non-Programmers
 
 # when i write in the terminal all of them are printed out. 

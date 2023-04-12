@@ -17,6 +17,11 @@ function fetchText() {
   const fetchResponse = fetch('/run_all', { method: 'POST' })
     .then((response) => response.text())
     .then((text) => {
+      // I used chatgpt for this section below, I was very stuck on
+      // how to render the repsonse and format correctly into the
+      // li tags. I would have save a lot of time if I knew the
+      // the response was a string rather than an array.
+      // spilt turns it into an array.
       const href_links = document.getElementById('link_all')
       const lines = text.split('\n')
       url_list.push(lines)
@@ -64,6 +69,7 @@ currentTime()
 // https://dev.to/am20dipi/how-to-build-a-simple-search-bar-in-javascript-4onf
 
 // I havent actually seen this done in vinilla js, only react.
+// I have reworked this to access the bookmark data and render accordingly.
 
 const searchInput = document.querySelector('.input')
 searchInput.addEventListener('input', (e) => {

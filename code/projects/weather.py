@@ -14,7 +14,9 @@ import requests
 
 
 
-# Simple weather API and how its workd, accidently sent up my key for this to github
+# Simple weather API and how its worked, 
+# I accidently sent up my key for this to github and had to restart the 
+# research repo, very annoying. 
 
 ## access api inside our class
 class City:

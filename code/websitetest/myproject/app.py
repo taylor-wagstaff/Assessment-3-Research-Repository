@@ -2,11 +2,12 @@ from flask import Flask, render_template
 import chrome_bookmarks
 import random
 
-### this is a Random Bookmark Generator, using flash, it can access your
-## bookmarks and display a random link 
+### this is a bookmark manager using flash, 
+# it can access your bookmarks, has a search function and display a random link 
 
 # to activate:  source websitetest/myproject/bin/activate
-# must be above websitetest folder
+# must be above websitetest folder, then 'flask run' inside the myproject folder
+# confusing, i must have set it up wrong. 
 
 bookmarks_url = []
 
@@ -33,21 +34,15 @@ def index():
 
 @app.route('/run_code', methods=['POST'])
 def run_code():
+    #this is for a random bookmark
     result = "\n".join(map(str, random.choice(bookmarks_url)))
     return result
 
 @app.route('/run_all', methods=['POST'])
 def run_all():
+    # this is for all bookmark responses. 
     result = "\n".join(map(str, bookmarks_url))
     return result
-
-# @app.route('/search', methods=['POST'])
-# def search():
-#     result = bookmarks_url
-#     return result
-
-
-
 
 
 if "__name__" == "__main__":

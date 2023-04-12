@@ -2,7 +2,7 @@
 # What you should know, by Nick Walter.
 
 #classes in Python. 
-
+# Wanted to understand classes more indepth. Has helped with software projects. 
 
 #to make a class,cannot be empty, pass for empty line
 #class attributes, or vairbles, accessed anyhting you want inside the class

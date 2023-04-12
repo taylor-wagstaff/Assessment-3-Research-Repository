@@ -3,7 +3,12 @@ from bs4 import BeautifulSoup
 import webbrowser
 
 
-## a random image from wikipedia, reworked code. 
+# a random image from wikipedia, reworked code. 
+# Mangages to fetch a random image from wikipedia, I reworked a version 
+# from a random article to an image. 
+
+# Random Wikipedia Article Generator in Python
+# https://www.codesnail.com/random-wikipedia-article-generator-in-python/
 
 while True:
     url = requests.get("https://en.wikipedia.org/wiki/Special:Random")

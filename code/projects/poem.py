@@ -5,6 +5,9 @@ import requests
 import random
 from bs4 import BeautifulSoup
 
+# This is a project which takes a url, scraps the article headlines
+# into an array, then generates a random string to create a type of poeom generator. 
+
 
 url = "https://www.economist.com/"
 
